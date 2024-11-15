@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pet Haven</title>
+ 
+  <style> 
+    .navbar {
+        background-color: #4CAF50; /* Green background color */
+        overflow: hidden;
+    }
+
+    .navbar a {
+      max-width: 600px;
+      display: inline;
+            margin: 200 ;
+            padding: 40px;
+            background-color: #75db94;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar a:hover {
+        background-color: #45a049; /* Slightly darker green on hover */
+    }
+    /* Basic styling for the navigation bar */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Navbar styling */
+    nav {
+      background-color: #4CAF50;
+      overflow: hidden;
+    }
+
+    /* List styling */
+    nav ul {
+      list-style-type: none;
+      margin-right: 100px;
+      padding: 10;
+    }
+
+    /* List items float left for horizontal layout */
+    nav ul li {
+      float: right;
+      margin-right: 200px;
+    }
+
+    /* Links styling */
+    nav ul li a {
+      display: inline;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      margin-right: 200px;
+    }
+
+    /* Hover effect */
+    nav ul li a:hover {
+      background-color: #12e71d;
+    }
+
+    /* Responsive styling for mobile screens */
+    @media (max-width: 600px) {
+      nav ul li {
+        float: left;
+        text-align: center;
+      }
+    }
+    footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        table {
+    width: 100%; /* Full width for responsiveness */
+    max-width: 800px; /* Optional: limit maximum width */
+    margin: 20px auto; /* Center table on the page */
+    border-collapse: collapse; /* Remove gaps between cells */
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+/* Styling table headers */
+th {
+    background-color: #4CAF50; /* Green header background */
+    color: white; /* White text */
+    text-align: center;
+    padding: 12px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+}
+
+
+td {
+    padding: 10px; /* Padding inside cells */
+    text-align: left;
+    border: 1px solid #ddd; /* Light border */
+    vertical-align: top;
+}
+
+/* Zebra striping for rows */
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light gray for even rows */
+}
+
+/* Hover effect on rows */
+tr:hover {
+    background-color: #f1f1f1; /* Highlight row on hover */
+}
+
+/* Adjust text alignment for specific columns if needed */
+td:nth-child(3) {
+    text-align: center; /* Center align prices */
+}
+
+/* Make the table responsive */
+@media (max-width: 600px) {
+    table {
+        font-size: 14px; /* Smaller font size for smaller screens */
+    }
+    th, td {
+        padding: 8px; /* Adjust padding for smaller screens */
+    }
+}
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <a href="About Us.html"> About us </a>
+      <a href="Contact.html">  contact us</a>
+      <a href="Services.html"> service </a>
+      <a href="Products.html">Products </a>
+    </ul>
+  </nav>
+
+  
+  <section id="home">
+    <h1>Welcome to Pet Haven</h1>
+    <p>Your one-stop shop for all things pets!</p>
+  </section>
+
+</head>
+<body>
+
+    
+       
+        <title>
+        About Us
+        </title>
+        <h1>ABOUT US</h1>
+        
+    <p>Pet Haven was founded with a simple mission: to create a welcoming and compassionate environment for pets and pet owners alike. Established in the early 2000s by animal lovers who wanted a better alternative to traditional pet shops, Pet Haven aimed to combine pet adoption, quality pet products, and services like grooming and training under one roof.
+
+      Originally, Pet Haven started as a small community-focused store that worked with local animal shelters to promote pet adoption and responsible pet ownership. As word spread, it became known not just as a store but as a community resource—a place where people could find not only supplies but also advice, support, and education on caring for their pets.
+      
+      Today, Pet Haven has expanded to several 
+      locations, offering a wide range of products and services, including pet grooming, training, veterinary consultations, and even pet daycare. The brand remains true to its roots, partnering with shelters and hosting adoption events to help pets find loving homes. With its commitment to quality and care, Pet Haven has become a trusted name in pet services and continues to grow 
+      while keeping the health and happiness of pets at the forefront of everything it does.</p>
+        <h2>Available pets </h2>
+        <p>
+            <ul>
+        <li>Dogs</li>
+        <li>Cats</li>
+        <li>Fish</li>
+        <li>Birds</li>
+        <li>Small Reptiles</li>
+    </ul>
+        </p>
+        
+        <h4>our pet images</h4>
+        <img src="data:image/jpeg;base64,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" alt="">
+<h5> our pet traing vodeos</h5>
+        <iframe width="500" height="300" 
+        src="https://www.youtube.com/embed/HTXajoc4a3k" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+</iframe>
+<h4>Pet Services and Pricing</h4>
+<table>
+    <tr>
+        <th>Service</th>
+        <th>Description</th>
+        <th>Price</th>
+    </tr>
+    <tr>
+        <td>Grooming</td>
+        <td>Full grooming session including bath, haircut, and nail trimming.</td>
+        <td>$50</td>
+    </tr>
+    <tr>
+        <td>Training</td>
+        <td>Basic obedience training for dogs.</td>
+        <td>$30 per session</td>
+    </tr>
+    <tr>
+        <td>Veterinary Care</td>
+        <td>General health check-up and vaccinations.</td>
+        <td>$75</td>
+    </tr>
+    <tr>
+        <td>Pet Boarding</td>
+        <td>Overnight stay with meals and walks included.</td>
+        <td>$40 per night</td>
+    </tr>
+</table>
+
+ 
+ <footer>
+    <p>&copy; 2024 Pet Haven. All rights reserved.</p>
+    <p>email manyisanewton@gmail.com | Phone:+254799425417</p>
+  </footer>
+
+        
+    
+    </body>
+</html>
